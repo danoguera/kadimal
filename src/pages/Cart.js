@@ -89,7 +89,7 @@ class Cart extends React.Component{
         address_billing: '',
         type_doc_billing: 'cc',
         mobilephone_billing: '',
-        number_doc_billing: '45909003',
+        number_doc_billing: this.state.user.documentId,
       });
     }
 
