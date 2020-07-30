@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.formNewProd{
+  padding: 40px;
+  max-width: 600px;
+  margin: 20px auto;
+  border-radius: 4px;
+  box-shadow: 0px 0px 40px 16px rgba(18, 18, 18, 1.00);
+  transition: .5s ease;
+  margin-top: 30px;
+  color: #FFFFFF;
+}
+
+.formNewProd:hover{
+  box-shadow: 0 4px 30px 4px rgba(19, 35, 47, 1.00);
+}
+
+.contentNewProd{
+  display: block;
+}
+
+.contentNewProd h1{
+  margin-top: 5px;
+}
+
+.contentNewProd > div:last-child{
+  display: none;
+}
+
+input[type=text],
+input[type=password]{
+  font-size: 20px;
+  display: block;
+  width: 97%;
+  height: 100%;
+  padding: 9px 5px 10px 10px;
+  background-color: rgba(0.2, 0.2, 0.2, 0.3);
+  background-image: none;
+  border: 1px solid #fff;
+  color: #ffffff;
+  border-radius: 1px;
+  transition: border-color .25s ease, box-shadow .25s ease;
+  font-weight: 540;
+}
+
+input:focus{
+  outline: 0;
+  border-color: #000;
+}
+
+.fieldNewProd{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.topRowNewProd:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.topRowNewProd > div{
+  float: left;
+  width: 48%;
+  margin-right: 3%;
+}
+
+.topRowNewProd > div:last-child{
+  margin: 0;
+}
+
+.button{
+  background: #FF0000;
+  border: 0;
+  border-radius: 2px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  font-size: 20px;
+  outline: none;
+  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: .1em;
+  margin-bottom: 15px;
+}
+
+.button:hover, .button:focus{
+  background: #179b77;
+}
+
+.button-block{
+  display: block;
+  width: 100%;
+}
+
+.warning {
+  color: #FFF;
+  padding-top: 10px;
+}
+
+h1{
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 900;
+  margin: 0 0 40px;
+  font-size: 40px;
+}
+
+.textBoxNewProd{
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 10px 10px;
+  background-color: rgba(0.2, 0.2, 0.2, 0.3);
+  width: 100%;
+  height: 72px;
+  border: 1px solid rgb(255, 255, 255);
+  outline: none;
+  font-size: 20px;
+  transition: 0.2s;
+  color: #FFFFFF;
+  font-weight: 400;
+  border-radius: 2px;
+}
+
+.formNewProd select{
+  font-size: 20px;
+  display: block;
+  background-color: rgba(0.2, 0.2, 0.2, 0.2);
+  color: #FFFFFF;
+  padding: 10px 13px;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 2px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  line-height: 25px;
+  border: 1px solid rgb(199, 190, 190);
+  background-image: url('../assets/images/down-arrow.png');
+  background-repeat: no-repeat, repeat;
+  background-position: right .7em top 50%;
+  background-size: .90em;
+  margin: 0 auto;
+}
+
+.formNewProd select option {
+  color: black;
+}
+
+input[type="file"]{
+  display: none;
+}
+
+.formNewProd label{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(240,240,240,0.05);
+  border: 1px solid rgb(255, 249, 249);
+  border-radius: 2px;
+  line-height: 2px;
+  margin: auto;
+  width: 50%;
+}
+
+.formNewProd label p{
+  margin-left: 6px;
+  font-size: 20px;
+}
+
+::placeholder{
+  color: #FFFFFF;
+}

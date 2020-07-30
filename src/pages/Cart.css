@@ -1,0 +1,286 @@
+.containerCart {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+  color: #FFFFFF;
+}
+.section-header {
+  font-family: "Metal Mania";
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+  font-size: 3em;
+}
+
+.about-band-image {
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin: 15px;
+  border-radius: 50%;
+}
+
+.main-footer {
+  background-color: #56CCF2;
+  color: white;
+  padding: .25em 0;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
+
+.footer-nav li {
+  padding: 0 .5em;
+}
+
+.footer-nav img {
+  width: 30px;
+  height: 30px;
+}
+
+.btnCart {
+  text-align: center;
+  vertical-align: middle;
+  padding: .30em .67em;
+  cursor: pointer;
+}
+
+.btnCart-header {
+  margin: .5em 15% 2em 15%;
+  color: white;
+  border: 2px solid #2D9CDB;
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 0;
+  font-size: 1.5em;
+  font-weight: lighter;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.btnCart-header:hover {
+  background-color: rgba(255, 255, 255, .3);
+}
+
+.btnCart-play {
+  display: block;
+  margin: 0 auto;
+  color: #FF0000;
+  font-size: 4em;
+  border-radius: 50%;
+  width: 100px;
+  height: 20px;
+  padding: 0;
+  text-align: center;
+}
+
+.btnCart-primary {
+  color: white;
+  background-color: #FF0000;
+  border: none;
+  border-radius: .3em;
+  font-weight: bold;
+}
+
+.btnCart-primary:hover {
+  background-color: #FF0000;
+}
+
+.tour-row {
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.tour-row:last-child {
+  border: none;
+}
+
+.tour-item {
+  display: inline-block;
+  padding-right: .5em;
+}
+
+.tour-date {
+  color: #555;
+  width: 11%;
+  font-weight: bold;
+}
+
+.tour-city {
+  width: 24%;
+}
+
+.tour-arena {
+  width: 42%;
+}
+
+.tour-btnCart {
+  max-width: 19%;
+}
+
+.shop-item {
+  margin: 30px;
+}
+
+.shop-item-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.shop-item-image {
+  height: 250px;
+}
+
+.shop-item-details {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.shop-item-price {
+  flex-grow: 1;
+  color: #333;
+}
+
+.shop-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cart-header {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #FFFFFF;
+}
+
+.cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ffffff;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  color: #FFFFFF;
+}
+
+.cart-row {
+  display: flex;
+}
+
+.cart-item {
+  width: 45%;
+  color: #FFFFFF;
+}
+
+.cart-price {
+  width: 40%;
+  font-size: 1.4em;
+  color: #FFFFFF;
+  /* padding-left: 35px; */
+}
+
+.cart-quantity {
+  width: 35%;
+}
+
+.carTitle{
+  margin-top: 30px;
+}
+
+.cart-item-title {
+  color: #FFFFFF;
+  margin-left: .5em;
+  font-size: 1.2em;
+}
+
+.cart-item-image {
+  width: 75px;
+  height: auto;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.btnCart-danger {
+  color: white;
+  background-color: #FF0000;
+  border: none;
+  border-radius: .3em;
+  font-weight: bold;
+  margin: 30px 0;
+  padding: 10px;
+}
+
+.btnCart-danger:hover {
+  background-color: #EB5757;
+}
+
+.cart-quantity-input {
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #CC4C4C;
+  background-color: #eee;
+  color: #333;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-left: 55px;
+}
+
+.cart-row:last-child {
+  border-bottom: 1px solid #ffffff;
+}
+
+.cart-row:last-child .cart-column {
+  border: none;
+}
+
+.cart-total {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #FFFFFF;
+  margin-right: 20px;
+}
+
+.cart-total-price {
+  color: #FFFFFF;
+  font-size: 1.5em;
+  padding-top: 20px;
+}
+
+.cart-price1{
+  margin-top: 35px;
+  margin-left: 100px;
+}
+
+.btnCart-purchase {
+  display: inline-block;
+  margin: 40px 10px 80px 5px;
+  font-size: 1.75em;
+  text-align: center;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

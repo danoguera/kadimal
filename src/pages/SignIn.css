@@ -1,0 +1,109 @@
+/* .signupFrame {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  text-align: center;
+  color: #FFFFFF;
+} */
+/* 
+.boxSignup{
+  background-color: #E8E8E8;
+  width: 450px;
+  height: 780px;
+  margin-top: 20px;
+  background: rgba(0,0,0,0.4);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+} */
+
+.formSignIn{
+  padding: 30px 40px;
+  max-width: 600px;
+  margin: 5px auto;
+  border-radius: 4px;
+  box-shadow: 0px 0px 40px 16px rgba(18, 18, 18, 1.00);
+  transition: .5s ease;
+  margin-top: 70px;
+}
+
+.form:hover{
+  box-shadow: 0 4px 30px 4px rgba(19, 35, 47, 1.00);
+}
+
+.contentSignIn{
+  display: block;
+}
+
+.content > div:last-child{
+  display: none;
+}
+
+input[type=text],
+input[type=password]{
+  font-size: 22px;
+  display: block;
+  width: 97%;
+  height: 100%;
+  padding: 5px 5px 10px 10px;
+  background-color: rgba(0.2, 0.2, 0.2, 0.2);
+  background-image: none;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 1px;
+  transition: border-color .25s ease, box-shadow .25s ease;
+  font-weight: 540;
+}
+
+input:focus{
+  outline: 0;
+  border-color: #000;
+}
+
+.field{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.button{
+  background: #FF0000;
+  border: 0;
+  border-radius: 2px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  font-size: 20px;
+  outline: none;
+  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  margin: 35px 0 30px 0;
+}
+
+.button:hover, .button:focus{
+  background: #179b77;
+}
+
+.button-block{
+  display: block;
+  width: 100%;
+}
+
+.warning {
+  color: #FFF;
+  padding-top: 10px;
+}
+
+.SignInHead{
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 900;
+  margin: 0 0 40px;
+  font-size: 40px;
+}
+
+
+
+@media only screen and (min-width: 1000px){
+}

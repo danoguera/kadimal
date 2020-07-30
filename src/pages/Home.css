@@ -1,0 +1,81 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: "Robot", sans-serif;
+}
+
+.mainTitle{
+  margin-top: 40px;
+  font-size: 60px;
+}
+
+.categories{
+  max-width: 100%;
+  margin: 40px auto;
+  /* height: 40px; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.category-item{
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 33.33%;
+  /* border: 2px solid white; */
+  box-sizing: border-box;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.category-item-inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.category-item-inner > div{
+  padding: 10px 50px;
+  background: rgb(51, 50, 50, 0.8);
+  color: white;
+  border-radius: 5px;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.listsPic{
+  max-width: 400px;
+}
+
+@media (max-width: 1000px){
+  .category-item{
+    min-width: 50%;
+  }
+}
+
+@media (max-width: 800px){
+  .category-item{
+    min-width: 100%;
+  }
+}
+ .service1{
+   background-image: url("../assets/images/wheel.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   color: #FFFFFF;
+   opacity: 0.8;
+ }
+ 
+ .service1 h3{
+   font-size: 50px;
+   color: #000000;
+   text-align: center;
+   text-shadow: 2px 2px 8px #111;
+   font-weight: 900;
+   cursor: pointer;
+   line-height: 370px;
+ }
+ 

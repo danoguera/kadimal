@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lato&family=Merriweather&family=Montserrat&family=Open+Sans:wght@600&display=swap');
+
+* {
+  text-decoration: none;
+  font-family: 'Arial', serif;
+}
+
+body {
+  background: linear-gradient(-180deg, rgba(27,27,27,0.8) 20%, rgba(27,25,25,0.5) 35%, rgba(150,150,150,0.3) 85%), url("../assets/images/car_truck_.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin:0;
+  height:100%;
+  width:100%;
+}
+
+a{
+  color: #FFFFFF;
+}
+
+section h1 {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+.headerNavBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 1%;
+}
+
+.logo {
+  width: 200px;
+  cursor: pointer;
+  margin-left: auto;
+  /* background: linear-gradient(-180deg, rgba(27,27,27,0.8) 20%, rgba(27,25,25,0.5) 35%, rgba(150,150,150,0.3) 85%), url("./assets/images/kadimal.png"); */
+}
+
+.nav_links{
+  list-style: none;
+}
+
+.nav_links li{
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.nav_links a{
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links a:hover{
+  color: red;
+}
+
+.option{
+  font-size: 22px;
+}
+
+.headerNavBarbutton{
+  margin: 0 0 0 40px;
+  padding: 9px 15px;
+  background-color: #FF0000;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  list-style: none;
+  width: 180px;
+  justify-content: right;
+}
+
+.headerNavBar button:hover {
+  background-color: #FF0000;
+}
+
+/* .headerNavBar ul {
+  margin-left: 300px;
+  margin-right: 2px;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+  overflow: hidden;
+  background-color: rgba(250, 250, 250, 1);
+  border-radius: 2px;   
+  border: 20px; 
+}
+
+.headerNavBar ul a{
+  display: inline-block;
+  padding: 0 20px;
+  text-decoration: none;
+  line-height: 25px;
+  color: #000;
+} */
+
+/* .headerNavBar a:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #000;
+}
+
+.headerNavBar li {
+  display: inline-block;
+  margin-bottom: 0 20px;
+}
+
+.headerNavBar li a{
+  transition: all 0.3s ease 0s;
+}
+
+.headerNavBar link a:hover{
+  color: grey;
+}
+
+
+
+.headerNavBar .menu{
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+.headerNavBar .menuIcon{
+  padding: 28px 30px;
+  position: relative;
+  float: right;
+  cursor: pointer;
+}
+
+.headerNavBar .menuIcon .navIcon{
+  background: #FFFFFF;
+  display: block;
+  height: 2px;
+  width: 21px;
+  position: relative;
+  transition: background .2s ease-out;
+}
+
+.headerNavBar .menuIcon .navIcon:before{
+  background: #FFFFFF;
+  content: "";
+  text-shadow: 2px 2px 8px #000;
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  top: 5px;
+  transition: all .2s ease-out;
+}
+
+.headerNavBar .menuIcon .navIcon:after{
+  background: #FFFFFF;
+  content: "";
+  text-shadow: 2px 2px 8px #000;
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  top: -5px;
+}
+
+.headerNavBar .menuButton{
+  display: none;
+}
+
+.headerNavBar .menuButton:checked ~ .menu{
+  max-height: 240px;
+}
+
+.menuIcon:checked ~ .mainContainer{
+  position: absolute;
+  top: 200px;
+}
+
+.headerNavBar .menuButton:checked ~ .menuIcon .navIcon{
+  background: transparent;
+}
+
+.headerNavBar .menuButton:checked ~ .menuIcon .navIcon:before{
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+.headerNavBar .menuButton:checked ~ .menuIcon .navIcon:after{
+  transform: rotate(45deg);
+  top: 0;
+} */
+
+.login {
+  clear: both;
+  position: absolute;
+  margin: auto;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box {
+  background-color: #E8E8E8;
+  width: 400px;
+  height: 275px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.check{
+  vertical-align: top;
+}
+
+.inputBox {
+  display: block;
+  box-sizing: border-box;
+  margin: 20px 20px 10px 20px;
+  padding: 10px;
+  background: transparent;
+  width: 90%;
+  height: 32px;
+  border: 1px solid #FFF;
+  outline: none;
+  font-size: 15px;
+  transition: 0.2s;
+  color: #FFF;
+}
+
+.submit-btn {
+  width: 120px;
+  height: 32px;
+  background: #F44336;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.photographer-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photographer-pic {
+  max-width: 180px;
+  position: relative;
+  left: 0;
+  margin: 10px 0;
+  filter: drop-shadow(-6px 40px 23px rgba(black, 1.5));
+  border-radius: 6px;
+}
+
+.photographer-details {
+  padding: 0 20px 0 20px;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+
+.photographer-details p {
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 5px;
+  padding-bottom: 30px;
+}
+
+headerNavBar h1 {
+  text-align: left;
+  margin: 0;
+}
+
+.profile-btn {
+  width: 220px;
+  height: 60px;
+  background: #F44336;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 20px;
+  margin-top: 100px;
+  line-height: 20px;
+}
+
+@media only screen and (min-width: 1000px) {
+  
+
+
+  .headerNavBar ul{
+      margin-top: 20px;
+      background-color: transparent;
+      border-radius: 7px; 
+      margin-left: 0;
+      margin-right: 15px;
+  }
+
+  .headerNavBar ul a{
+      display: inline-block;
+      font-size: 22px;
+      color: #FFFFFF;
+      text-shadow: 2px 2px 8px #000;
+  }
+
+  .headerNavBar ul a:hover{
+      background-color: transparent;
+      color: #FFF;
+  }
+
+  /* .headerNavBar li {
+      float: left;
+      
+  } */
+
+  .headerNavBar li a{
+      padding: 0 15px;
+      color: #FFFFFF;
+      text-shadow: 2px 2px 8px #000;
+  }
+
+  .headerNavBar .menu{
+      clear: none;
+      /* float: left; */
+      max-height: none;
+      
+  }
+
+  .headerNavBar .menuIcon{
+      display: none;
+  }
+
+  .container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 5px;
+      /* margin-top: 15px; */
+  }
+  .profile-btn {
+      margin-top: 0;
+  }
+  .photographer-details {
+      padding: 0 20px 10px 20px;
+      border-radius: 5px;
+      color: #FFFFFF;
+      width: 90%;
+  }
+
+  .headerNavBar .left {
+      float: left;
+      margin: 8px 0 0 60px;
+  }
+
+  .headerNavBar .right {
+      float: right;
+      padding-right: 40px;
+      padding-left: 20px;
+      margin-left: 40px;
+  }
+
+  .headerNavBar .right li {
+      padding-left: 5px;
+  }
+
+  
+}
